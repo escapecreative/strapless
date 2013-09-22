@@ -73,6 +73,7 @@ body.single .jumbotron {
 }
 .img-featured img {
 	margin: 20px 0;
+	float: right;
 }
 
 
