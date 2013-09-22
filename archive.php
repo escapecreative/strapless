@@ -15,6 +15,9 @@ get_header(); ?>
 			</div>
 		<?php /* Tag Archives */ } elseif( is_tag() ) { ?>
 			<h1>Tagged: <?php single_tag_title(); ?></h1>
+			<div class="row">
+				<div class="col-md-8"><?php echo tag_description(); ?></div>
+			</div>
 		<?php /* Date Archive -> DAY */ } elseif (is_day()) { ?>
 			<h1>Articles from <?php the_date(); ?></h1>
 		<?php /* Date Archive -> MONTH */ } elseif (is_month()) { ?>
