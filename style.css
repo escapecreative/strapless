@@ -59,6 +59,7 @@ Color 3: #xxxxxx
 /* Blog & Single Posts
 --------------------------------------------------------- */
 body.single .jumbotron,
+body.blog .jumbotron,
 body.archive .jumbotron,
 body.search .jumbotron,
 body.error404 .jumbotron {
