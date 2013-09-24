@@ -12,7 +12,7 @@ get_header(); ?>
 <div class="jumbotron">
 	<div class="container">
 		<?php if ( is_front_page() || is_home() ) { ?>
-			<h1><?php _e('Welcome'); ?></h1>
+			<h1><?php _e('Welcome to '); ?><?php echo bloginfo('name'); ?></h1>
 			<p class="lead"><?php bloginfo('description'); ?></p>
 		<?php } else { ?>
 			<h1>Archives</h1>
