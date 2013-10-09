@@ -14,7 +14,7 @@ $date_modified = get_the_modified_date();
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<h1><?php the_title(); ?></h1>
+				<h1 class="page-title"><?php the_title(); ?></h1>
 				<ul class="list-inline post-meta">
 					<li><i class="icon-calendar"></i> <?php the_date(); ?></li>
 					<?php if ( $date_published != $date_modified ) { ?>

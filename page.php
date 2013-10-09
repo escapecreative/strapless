@@ -8,7 +8,7 @@ get_header(); ?>
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-	<h1 class="col-md-12"><?php the_title(); ?></h1>
+	<h1 class="col-md-12 page-title"><?php the_title(); ?></h1>
 
 	<article class="page col-md-8" id="post-<?php the_ID(); ?>">
 		<div class="entry">
