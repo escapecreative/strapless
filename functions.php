@@ -30,15 +30,15 @@ if (!is_admin()) {
 		// Bootstrap
 		wp_register_style('bootstrap-styles', '//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css', array(), null, 'all');
 		wp_enqueue_style('bootstrap-styles');
+		// Google Fonts
+		// wp_register_style('google-fonts', '//fonts.googleapis.com/css?family=Open+Sans', array(), null, 'all');
+		// wp_enqueue_style('google-fonts');
 		// Theme Styles
 		wp_register_style('theme-styles', get_stylesheet_uri(), array(), null, 'all');
 		wp_enqueue_style('theme-styles');
 		// Font Awesome
 		wp_register_style('font-awesome', '//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css', array(), null, 'all');
 		wp_enqueue_style('font-awesome');
-		// Google Fonts
-		wp_register_style('google-fonts', '//fonts.googleapis.com/css?family=Antic+Didone|Ovo|EB+Garamond', array(), null, 'all');
-		wp_enqueue_style('google-fonts');
 	}
 
 	// Load Javascript
