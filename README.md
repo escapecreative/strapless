@@ -3,6 +3,8 @@ Strapless - A Bootstrap WordPress Theme
 
 A clean, simple, responsive WordPress theme built with Bootstrap (v3), Modernizr &amp; icons from Font Awesome. Created &amp; maintained by the creators of [WP Smackdown](http://wpsmackdown.com/).
 
+This theme can be used as-is on any WordPress site, but it was intentionally designed to be used as a starting point for building custom themes that utilize the Bootstrap framework.
+
 ## Getting Started
 
 * [Download](https://github.com/escapecreative/strapless/releases) the latest stable release, or try the [most up-to-date code](https://github.com/escapecreative/strapless/archive/master.zip) if you're feeling adventurous (might be buggy).
