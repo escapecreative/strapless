@@ -11,6 +11,7 @@ This theme can be used as-is on any WordPress site, but it was intentionally des
 * Navigate to "Appearance" > "Themes" in your WordPress Admin
 * Upload the .zip file
 * Activate the theme
+* Navigate to "Appearance" > "Menus". Click on "Manage Locations". Choose an existing menu, or add a new one, for the "Primary navigation at top of page" location.
 
 ## Features
 
@@ -19,7 +20,7 @@ The Strapless Theme includes the following features. We have also included CSS s
 ### Header & Navigation
 * **Navbar:** Header uses Bootstrap's [Navbar](http://getbootstrap.com/components/#navbar)
 	* Currently, we're using a [fixed-to-top](http://getbootstrap.com/components/#navbar-fixed-top) style. See Bootstrap's documentation on how to change this.
-* **Dropdowns:** Navigation uses Bootstrap's [Dropdowns](http://getbootstrap.com/components/#dropdowns) for sub-pages
+* **Dropdowns:** Navigation uses Bootstrap's [Dropdowns](http://getbootstrap.com/components/#dropdowns) for sub-pages. Only supports one level of dropdowns.
 
 ### Writing (Posts & Pages)
 * **Single Posts:** Displays title, featured image, publish date, number of comments, categories, tags & post modified date (in human readable format)
