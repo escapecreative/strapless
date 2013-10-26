@@ -43,7 +43,7 @@ The Strapless Theme includes the following features. We have also included CSS s
 * **Permalink:** [Chain link icon](http://fortawesome.github.io/Font-Awesome/icon/link/) used for comment permalink
 * **Name & URL:** Displays commenter's name & a link to their website
 * **Post author:** Unique style for comments by the post author. Uses WordPress' `bypostauthor` class.
-* **Threaded comments:** Support for 1 level of threaded comments
+* **Threaded comments:** Support for 5 levels of threaded comments
 * **Jetpack > Subscriptions:** CSS styles for the checkbox that allows users to subscribe to comments
 
 ### Search
