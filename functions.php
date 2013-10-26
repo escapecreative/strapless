@@ -3,6 +3,7 @@ include('_inc/functions/menus.php'); /* Register Menus, Create Menu Locations, W
 include('_inc/functions/widget-areas.php'); /* Add Widget-Areas */
 include('_inc/functions/images.php'); /* Add Image Sizes */
 include('_inc/functions/comments.php'); /* Custom Comment Formatting */
+include('_inc/functions/wp-admin.php'); /* For the WP Admin backend only */
 
 // Clean up the <head>
 remove_action('wp_head', 'rsd_link');

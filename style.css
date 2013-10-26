@@ -28,6 +28,12 @@ Color 3: #xxxxxx
 --------------------------------------------------------- */
 
 /* Place any new styles or overrides to Bootstrap here */
+blockquote cite {
+	display: block;
+	font-style: italic;
+	font-size: 85%;
+	margin-top: 10px;
+}
 
 
 /* Main Navigation
@@ -70,6 +76,7 @@ body.single .jumbotron {
 }
 .jumbotron h1 {
 	font-size: 42px;
+	word-wrap: break-word;
 }
 .img-featured img {
 	margin: 20px 0;
@@ -198,6 +205,9 @@ h4#comments {
 .comment-content {
 	padding-left: 20px;
 }
+.comment-content .reply {
+	min-height: 30px;
+}
 .comment-author a {
 	display: inline-block;
 }
@@ -277,7 +287,7 @@ h4#comments {
 
 
 /* Jetpack Plugin by Automattic
-   Adds styles for various Jetpack modules
+   Styles for various Jetpack modules
 --------------------------------------------------------- */
 
 /* Comment Subscriptions */
@@ -300,4 +310,16 @@ iframe.youtube-player {
 	padding: 7px;
 	border: 1px solid #ddd;
 	border-radius: 3px;
+}
+
+/* Meta Slider by Matcha Labs
+   Styles for jQuery slider plugins
+--------------------------------------------------------- */
+
+/* Flex Slider */
+/* Display first image on page load, before jQuery loads */
+.flexslider .slides > li:first-child {
+	display: block !important;
+	opacity: 1 !important;
+	-webkit-backface-visibility: visible !important;
 }
