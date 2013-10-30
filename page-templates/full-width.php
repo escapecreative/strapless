@@ -1,5 +1,5 @@
 <?php
-/* The generic page template that powers basic, static pages. */
+/* Template Name: Full Width (no sidebar) */
 
 get_header(); ?>
 
@@ -10,21 +10,19 @@ get_header(); ?>
 
 	<h1 class="col-md-12 page-title"><?php the_title(); ?></h1>
 
-	<article class="page col-md-8" id="post-<?php the_ID(); ?>">
+	<article class="page col-md-12" id="post-<?php the_ID(); ?>">
 		<div class="entry">
 			<?php the_content(); ?>
 		</div>
 	</article>
 	<?php endwhile; else: ?>
-	<article class="page col-md-8 not-found">
+	<article class="page col-md-12 not-found">
 		<div class="entry">
 			<p class="lead"><?php _e('Sorry, this page does not exist. Try a search.'); ?></p>
 			<?php get_search_form(); ?>
 		</div>
 	</article>
 	<?php endif; ?>
-
-	<?php get_sidebar(); ?>
 
 	</div> <!-- .row -->
 </div> <!-- .container -->
