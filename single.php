@@ -16,15 +16,15 @@ $date_modified = get_the_modified_date();
 			<div class="col-md-8">
 				<h1 class="page-title"><?php the_title(); ?></h1>
 				<ul class="list-inline post-meta">
-					<li><i class="icon-calendar"></i> <?php the_date(); ?></li>
+					<li><i class="fa-calendar"></i> <?php the_date(); ?></li>
 					<?php if ( $date_published != $date_modified ) { ?>
-					<li><i class="icon-time"></i> Updated: <?php echo human_time_diff( get_the_modified_date('U'), current_time('timestamp') ) . ' ago'; ?></li>
+					<li><i class="fa-clock-o"></i> Updated: <?php echo human_time_diff( get_the_modified_date('U'), current_time('timestamp') ) . ' ago'; ?></li>
 					<?php } // end if ?>
-					<li><i class="icon-comments"></i> <?php comments_popup_link('No Comments', '1 Comment', '% Comments', 'comments-link', ''); ?></li>
+					<li><i class="fa-comments"></i> <?php comments_popup_link('No Comments', '1 Comment', '% Comments', 'comments-link', ''); ?></li>
 				</ul>
-				<p><i class="icon-folder-open"></i> <?php the_category(', '); ?></p>
+				<p><i class="fa-folder-open"></i> <?php the_category(', '); ?></p>
 				<?php if ( has_tag() ) { // Check if post has any tags ?>
-				<p><i class="icon-tags"></i> <?php the_tags('', ', '); ?></p>
+				<p><i class="fa-tags"></i> <?php the_tags('', ', '); ?></p>
 				<?php } // end if ?>
 			</div> <!-- .col-md-8 -->
 			<div class="col-md-4 img-featured">
@@ -45,8 +45,8 @@ $date_modified = get_the_modified_date();
 			<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 				<?php the_content(); ?>
 				<ul class="pager">
-					<li class="previous"><?php previous_post_link('%link', '<i class="icon-chevron-left"></i>&nbsp; %title'); ?></li>
-					<li class="next"><?php next_post_link('%link', '%title &nbsp;<i class="icon-chevron-right"></i>'); ?></li>
+					<li class="previous"><?php previous_post_link('%link', '<i class="fa-chevron-left"></i>&nbsp; %title'); ?></li>
+					<li class="next"><?php next_post_link('%link', '%title &nbsp;<i class="fa-chevron-right"></i>'); ?></li>
 				</ul>
 			</article>
 

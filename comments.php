@@ -14,15 +14,15 @@
 
 <?php if ( have_comments() ) : ?>
 	
-	<h4 id="comments"><i class="icon-comments-alt icon-large"></i>&nbsp; <?php comments_number('No Comments', '1 Comment', '% Comments' ); ?> <a class="btn btn-sm btn-default pull-right" href="#respond"><i class="icon-plus-sign"></i>&nbsp; Comment</a></h4>
+	<h4 id="comments"><i class="fa-comments-o fa-lg"></i>&nbsp; <?php comments_number('No Comments', '1 Comment', '% Comments' ); ?> <a class="btn btn-sm btn-default pull-right" href="#respond"><i class="fa-plus-circle"></i>&nbsp; Comment</a></h4>
 
 	<ol class="comment-list media-list">
 		<?php wp_list_comments('callback=twbs_comment_format'); ?>
 	</ol>
 
 	<ul class="pager">
-		<li><?php previous_comments_link('<i class="icon-chevron-left"></i>&nbsp; Older Comments'); ?></li>
-		<li><?php next_comments_link('Newer Comments &nbsp;<i class="icon-chevron-right"></i>'); ?></li>
+		<li><?php previous_comments_link('<i class="fa-chevron-left"></i>&nbsp; Older Comments'); ?></li>
+		<li><?php next_comments_link('Newer Comments &nbsp;<i class="fa-chevron-right"></i>'); ?></li>
 	</ul>
 	
  <?php else : // this is displayed if there are no comments so far ?>

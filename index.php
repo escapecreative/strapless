@@ -44,8 +44,8 @@ get_header(); ?>
 			<?php endwhile; ?>
 
 				<ul class="pager">
-					<li><?php next_posts_link('<i class="icon-chevron-left"></i>&nbsp; Older Articles') ?></li>
-					<li><?php previous_posts_link('Newer Articles &nbsp;<i class="icon-chevron-right"></i>') ?></li>
+					<li><?php next_posts_link('<i class="fa-chevron-left"></i>&nbsp; Older Articles') ?></li>
+					<li><?php previous_posts_link('Newer Articles &nbsp;<i class="fa-chevron-right"></i>') ?></li>
 				</ul>
 			
 			<?php else : // If no posts are found ?>
